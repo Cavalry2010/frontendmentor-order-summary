@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://order-summary.alejandro.netlify.app)
+- Solution URL: [Front end Mentor Solution](https://www.frontendmentor.io/solutions/responsive-order-summary-with-just-flexbox-and-media-queries-bvN0FT2G9N)
+- Live Site URL: [Order Summary](https://order-summary-alejandro.netlify.app)
 
 ## My process
 
