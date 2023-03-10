@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-color: rgb(224, 232, 255);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.order-box {
+  max-width: 45rem;
+  border-radius: 20px;
+  box-shadow: 0 25px 15px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+.img-box {
+  line-height: 0;
+}
+
+.img-box img {
+  max-width: 100%;
+}
+
+.summary-box {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 4.8rem 4.8rem 2.4rem 4.8rem;
+}
+
+.heading-primary {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: rgb(31, 47, 86);
+  margin-bottom: 2.4rem;
+}
+
+.order-desc {
+  font-size: 1.6rem;
+  color: rgb(114, 128, 167);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.plan-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 247, 255);
+  gap: 1.6rem;
+  padding: 2rem 2.4rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.plan-name {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: rgb(31, 47, 86);
+}
+
+.plan-price {
+  font-size: 1.6rem;
+  color: rgb(114, 128, 167);
+}
+
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(56, 41, 224);
+}
+
+.change-plan {
+  margin-left: auto;
+}
+
+.change-plan:hover,
+.changeplan:active {
+  color: rgb(118, 108, 241);
+}
+
+.goto-payment:link,
+.goto-payment:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(56, 41, 224);
+  padding: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.6rem;
+  box-shadow: 0 20px 15px rgba(56, 41, 224, 0.17);
+}
+
+.goto-payment:hover,
+.goto-payment:active {
+  background-color: rgb(118, 108, 241);
+}
+
+.cancel-order:link,
+.cancel-order:visited {
+  text-decoration: none;
+  color: rgb(114, 128, 167);
+  padding: 1.4rem;
+}
+
+.cancel-order:hover,
+.cancel-order:active {
+  color: rgb(31, 47, 86);
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
